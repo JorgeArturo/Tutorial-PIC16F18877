@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\Tutorial_3_DiffPressure.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>32768</length>
+      <used>2944</used>
+      <free>29824</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>4096</length>
+      <used>183</used>
+      <free>3913</free>
+    </memory>
+  </executable>
+</project>
