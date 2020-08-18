@@ -193,7 +193,7 @@ void main(void)
         
         if(mean_pulses < MM_TO_PP(2000)){
     
-            //outPID = pid_compute(diff_count,0,0);
+            outPID = pid_compute(diff_count,0,0);
 
             printf("%d,%d,%i,%i\r\n",EncoderOfMotorLeft,EncoderOfMotorRight,diff_count,outPID);
             

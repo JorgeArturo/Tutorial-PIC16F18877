@@ -1,0 +1,1205 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18877 ]
+[d frameptr 6 ]
+"88 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/tmr2.c
+[e E12166 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"94
+[e E12189 . `uc
+TMR2_T2INPPS 0
+TMR2_RESERVED 1
+TMR2_T4POSTSCALED 2
+TMR2_T6POSTSCALED 3
+TMR2_CCP1_OUT 4
+TMR2_CCP2_OUT 5
+TMR2_CCP3_OUT 6
+TMR2_CCP4_OUT 7
+TMR2_CCP5_OUT 8
+TMR2_PWM6_OUT 9
+TMR2_PWM7_OUT 10
+TMR2_C1_OUT_SYNC 11
+TMR2_C2_OUT_SYNC 12
+TMR2_ZCD_OUTPUT 13
+TMR2_CLC1_OUT 14
+TMR2_CLC2_OUT 15
+TMR2_CLC3_OUT 16
+TMR2_CLC4_OUT 17
+]
+"1 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"593
+[v _utoa utoa `(i  1 s 2 utoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"101 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\main.c
+[v _gettime gettime `(f  1 e 4 0 ]
+"108
+[v _switch_out switch_out `(v  1 e 1 0 ]
+"126
+[v _pid_compute pid_compute `(l  1 e 4 0 ]
+"149
+[v _main main `(v  1 e 1 0 ]
+"66 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"52 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"64
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"82
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"59 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"159
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"176
+[v _IOCBF0_ISR IOCBF0_ISR `(v  1 e 1 0 ]
+"191
+[v _IOCBF0_SetInterruptHandler IOCBF0_SetInterruptHandler `(v  1 e 1 0 ]
+"198
+[v _IOCBF0_DefaultInterruptHandler IOCBF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"211
+[v _IOCBF1_ISR IOCBF1_ISR `(v  1 e 1 0 ]
+"226
+[v _IOCBF1_SetInterruptHandler IOCBF1_SetInterruptHandler `(v  1 e 1 0 ]
+"233
+[v _IOCBF1_DefaultInterruptHandler IOCBF1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+"82
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+"82
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+"82
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm4.c
+[v _PWM4_Initialize PWM4_Initialize `(v  1 e 1 0 ]
+"82
+[v _PWM4_LoadDutyValue PWM4_LoadDutyValue `(v  1 e 1 0 ]
+"65 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR0_ReadTimer TMR0_ReadTimer `(us  1 e 2 0 ]
+"62 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+[s S581 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"370 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16F1xxxx_DFP/1.4.119/xc8\pic\include\proc\pic16f18877.h
+[u S586 . 1 `S581 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES586  1 e 1 @11 ]
+[s S233 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"469
+[u S242 . 1 `S233 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES242  1 e 1 @13 ]
+"676
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"738
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"800
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"862
+[v _TRISD TRISD `VEuc  1 e 1 @20 ]
+"924
+[v _TRISE TRISE `VEuc  1 e 1 @21 ]
+"956
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+"1018
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+"1080
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+"1142
+[v _LATD LATD `VEuc  1 e 1 @25 ]
+"1204
+[v _LATE LATE `VEuc  1 e 1 @26 ]
+"1236
+[v _TMR0L TMR0L `VEuc  1 e 1 @28 ]
+"1374
+[v _TMR0H TMR0H `VEuc  1 e 1 @29 ]
+"1628
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @30 ]
+[s S498 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"1648
+[s S504 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S509 . 1 `S498 1 . 1 0 `S504 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES509  1 e 1 @30 ]
+"1693
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @31 ]
+"3764
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"3818
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"3879
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"3949
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"4003
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S397 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4029
+[u S406 . 1 `S397 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES406  1 e 1 @285 ]
+"4183
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S376 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4209
+[u S385 . 1 `S376 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES385  1 e 1 @286 ]
+"4363
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+[s S654 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 C3TSEL 1 0 :2:4 
+`uc 1 C4TSEL 1 0 :2:6 
+]
+"9209
+[s S659 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 C3TSEL0 1 0 :1:4 
+`uc 1 C3TSEL1 1 0 :1:5 
+`uc 1 C4TSEL0 1 0 :1:6 
+`uc 1 C4TSEL1 1 0 :1:7 
+]
+[u S668 . 1 `S654 1 . 1 0 `S659 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES668  1 e 1 @542 ]
+"9344
+[v _T2TMR T2TMR `VEuc  1 e 1 @652 ]
+"9349
+[v _TMR2 TMR2 `VEuc  1 e 1 @652 ]
+"9382
+[v _T2PR T2PR `VEuc  1 e 1 @653 ]
+"9387
+[v _PR2 PR2 `VEuc  1 e 1 @653 ]
+"9420
+[v _T2CON T2CON `VEuc  1 e 1 @654 ]
+[s S1189 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"9456
+[s S1193 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S1197 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+]
+[s S1205 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S1214 . 1 `S1189 1 . 1 0 `S1193 1 . 1 0 `S1197 1 . 1 0 `S1205 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1214  1 e 1 @654 ]
+"9566
+[v _T2HLT T2HLT `VEuc  1 e 1 @655 ]
+[s S1082 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"9599
+[s S1087 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S1093 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+[s S1098 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+[u S1104 . 1 `S1082 1 . 1 0 `S1087 1 . 1 0 `S1093 1 . 1 0 `S1098 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES1104  1 e 1 @655 ]
+"9694
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @656 ]
+"9852
+[v _T2RST T2RST `VEuc  1 e 1 @657 ]
+[s S1151 . 1 `uc 1 RSEL 1 0 :5:0 
+]
+"9879
+[s S1153 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+`uc 1 RSEL4 1 0 :1:4 
+]
+[s S1159 . 1 `uc 1 T2RSEL 1 0 :5:0 
+]
+[s S1161 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+`uc 1 T2RSEL4 1 0 :1:4 
+]
+[u S1167 . 1 `S1151 1 . 1 0 `S1153 1 . 1 0 `S1159 1 . 1 0 `S1161 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES1167  1 e 1 @657 ]
+"11151
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @780 ]
+"11171
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @781 ]
+"11191
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @782 ]
+[s S686 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 FMT 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"11228
+[s S692 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+[s S885 . 1 `uc 1 CCP1MODE 1 0 :4:0 
+`uc 1 CCP1FMT 1 0 :1:4 
+`uc 1 CCP1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP1EN 1 0 :1:7 
+]
+[s S891 . 1 `uc 1 CCP1MODE0 1 0 :1:0 
+`uc 1 CCP1MODE1 1 0 :1:1 
+`uc 1 CCP1MODE2 1 0 :1:2 
+`uc 1 CCP1MODE3 1 0 :1:3 
+]
+[s S896 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S899 . 1 `S686 1 . 1 0 `S692 1 . 1 0 `S885 1 . 1 0 `S891 1 . 1 0 `S896 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES899  1 e 1 @782 ]
+"11393
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @784 ]
+"11413
+[v _CCPR2H CCPR2H `VEuc  1 e 1 @785 ]
+"11433
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @786 ]
+"11470
+[s S977 . 1 `uc 1 CCP2MODE 1 0 :4:0 
+`uc 1 CCP2FMT 1 0 :1:4 
+`uc 1 CCP2OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP2EN 1 0 :1:7 
+]
+[s S983 . 1 `uc 1 CCP2MODE0 1 0 :1:0 
+`uc 1 CCP2MODE1 1 0 :1:1 
+`uc 1 CCP2MODE2 1 0 :1:2 
+`uc 1 CCP2MODE3 1 0 :1:3 
+]
+[s S988 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P2M1 1 0 :1:7 
+]
+[u S991 . 1 `S686 1 . 1 0 `S692 1 . 1 0 `S977 1 . 1 0 `S983 1 . 1 0 `S988 1 . 1 0 ]
+[v _CCP2CONbits CCP2CONbits `VES991  1 e 1 @786 ]
+"11635
+[v _CCPR3L CCPR3L `VEuc  1 e 1 @788 ]
+"11655
+[v _CCPR3H CCPR3H `VEuc  1 e 1 @789 ]
+"11675
+[v _CCP3CON CCP3CON `VEuc  1 e 1 @790 ]
+"11712
+[s S697 . 1 `uc 1 CCP3MODE 1 0 :4:0 
+`uc 1 CCP3FMT 1 0 :1:4 
+`uc 1 CCP3OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP3EN 1 0 :1:7 
+]
+[s S703 . 1 `uc 1 CCP3MODE0 1 0 :1:0 
+`uc 1 CCP3MODE1 1 0 :1:1 
+`uc 1 CCP3MODE2 1 0 :1:2 
+`uc 1 CCP3MODE3 1 0 :1:3 
+]
+[s S708 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P3M1 1 0 :1:7 
+]
+[u S711 . 1 `S686 1 . 1 0 `S692 1 . 1 0 `S697 1 . 1 0 `S703 1 . 1 0 `S708 1 . 1 0 ]
+[v _CCP3CONbits CCP3CONbits `VES711  1 e 1 @790 ]
+"11877
+[v _CCPR4L CCPR4L `VEuc  1 e 1 @792 ]
+"11897
+[v _CCPR4H CCPR4H `VEuc  1 e 1 @793 ]
+"11917
+[v _CCP4CON CCP4CON `VEuc  1 e 1 @794 ]
+"11954
+[s S793 . 1 `uc 1 CCP4MODE 1 0 :4:0 
+`uc 1 CCP4FMT 1 0 :1:4 
+`uc 1 CCP4OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP4EN 1 0 :1:7 
+]
+[s S799 . 1 `uc 1 CCP4MODE0 1 0 :1:0 
+`uc 1 CCP4MODE1 1 0 :1:1 
+`uc 1 CCP4MODE2 1 0 :1:2 
+`uc 1 CCP4MODE3 1 0 :1:3 
+]
+[s S804 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P4M1 1 0 :1:7 
+]
+[u S807 . 1 `S686 1 . 1 0 `S692 1 . 1 0 `S793 1 . 1 0 `S799 1 . 1 0 `S804 1 . 1 0 ]
+[v _CCP4CONbits CCP4CONbits `VES807  1 e 1 @794 ]
+[s S484 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"21319
+[u S489 . 1 `S484 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES489  1 e 1 @1804 ]
+[s S359 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+"21426
+[u S366 . 1 `S359 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES366  1 e 1 @1807 ]
+[s S1042 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"21476
+[u S1049 . 1 `S1042 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES1049  1 e 1 @1808 ]
+[s S197 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"21741
+[u S202 . 1 `S197 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES202  1 e 1 @1814 ]
+"22150
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"22207
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"22278
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"22323
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"22379
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"22430
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"23487
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23627
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23724
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23775
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"23833
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"31684
+[v _RXPPS RXPPS `VEuc  1 e 1 @7883 ]
+"32488
+[v _RB6PPS RB6PPS `VEuc  1 e 1 @7966 ]
+"32588
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @7968 ]
+"32638
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @7969 ]
+"32988
+[v _RD0PPS RD0PPS `VEuc  1 e 1 @7976 ]
+"33038
+[v _RD1PPS RD1PPS `VEuc  1 e 1 @7977 ]
+"33538
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"33600
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"33662
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"33724
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"33786
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"34158
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"34220
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"34282
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"34344
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"34406
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+[s S156 . 1 `uc 1 IOCBP0 1 0 :1:0 
+`uc 1 IOCBP1 1 0 :1:1 
+`uc 1 IOCBP2 1 0 :1:2 
+`uc 1 IOCBP3 1 0 :1:3 
+`uc 1 IOCBP4 1 0 :1:4 
+`uc 1 IOCBP5 1 0 :1:5 
+`uc 1 IOCBP6 1 0 :1:6 
+`uc 1 IOCBP7 1 0 :1:7 
+]
+"34485
+[u S165 . 1 `S156 1 . 1 0 ]
+"34485
+"34485
+[v _IOCBPbits IOCBPbits `VES165  1 e 1 @8008 ]
+[s S135 . 1 `uc 1 IOCBN0 1 0 :1:0 
+`uc 1 IOCBN1 1 0 :1:1 
+`uc 1 IOCBN2 1 0 :1:2 
+`uc 1 IOCBN3 1 0 :1:3 
+`uc 1 IOCBN4 1 0 :1:4 
+`uc 1 IOCBN5 1 0 :1:5 
+`uc 1 IOCBN6 1 0 :1:6 
+`uc 1 IOCBN7 1 0 :1:7 
+]
+"34547
+[u S144 . 1 `S135 1 . 1 0 ]
+"34547
+"34547
+[v _IOCBNbits IOCBNbits `VES144  1 e 1 @8009 ]
+[s S114 . 1 `uc 1 IOCBF0 1 0 :1:0 
+`uc 1 IOCBF1 1 0 :1:1 
+`uc 1 IOCBF2 1 0 :1:2 
+`uc 1 IOCBF3 1 0 :1:3 
+`uc 1 IOCBF4 1 0 :1:4 
+`uc 1 IOCBF5 1 0 :1:5 
+`uc 1 IOCBF6 1 0 :1:6 
+`uc 1 IOCBF7 1 0 :1:7 
+]
+"34609
+[u S123 . 1 `S114 1 . 1 0 ]
+"34609
+"34609
+[v _IOCBFbits IOCBFbits `VES123  1 e 1 @8010 ]
+"34778
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"34840
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"34902
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"34964
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"35026
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"35398
+[v _ANSELD ANSELD `VEuc  1 e 1 @8025 ]
+"35460
+[v _WPUD WPUD `VEuc  1 e 1 @8026 ]
+"35522
+[v _ODCOND ODCOND `VEuc  1 e 1 @8027 ]
+"35584
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @8028 ]
+"35646
+[v _INLVLD INLVLD `VEuc  1 e 1 @8029 ]
+"35832
+[v _ANSELE ANSELE `VEuc  1 e 1 @8036 ]
+"35864
+[v _WPUE WPUE `VEuc  1 e 1 @8037 ]
+"35902
+[v _ODCONE ODCONE `VEuc  1 e 1 @8038 ]
+"35934
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @8039 ]
+"35966
+[v _INLVLE INLVLE `VEuc  1 e 1 @8040 ]
+"41001
+[v _PLLR PLLR `VEb  1 e 0 @17536 ]
+"55 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"67 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\main.c
+[v _EncoderOfMotorLeft EncoderOfMotorLeft `us  1 e 2 0 ]
+"68
+[v _EncoderOfMotorRight EncoderOfMotorRight `us  1 e 2 0 ]
+"69
+[v _mean_pulses mean_pulses `ul  1 e 4 0 ]
+"71
+[v _diff_count diff_count `s  1 e 2 0 ]
+"72
+[v _outPID outPID `l  1 e 4 0 ]
+"76
+[v _y1 y1 `f  1 e 4 0 ]
+[v _y2 y2 `f  1 e 4 0 ]
+[s S545 PID_PARAMS 50 `i 1 time 2 0 `f 1 kp 4 2 `f 1 ki 4 6 `f 1 kd 4 10 `f 1 e 4 14 `f 1 le 4 18 `f 1 rp 4 22 `f 1 ri 4 26 `f 1 rd 4 30 `f 1 out 4 34 `f 1 ep 4 38 `f 1 pt 4 42 `f 1 ct 4 46 ]
+"98
+[v _pid pid `[1]S545  1 e 50 0 ]
+[s S313 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/eusart.c
+[u S318 . 1 `S313 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES318  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"55 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pin_manager.c
+[v _IOCBF0_InterruptHandler IOCBF0_InterruptHandler `*.37(v  1 e 2 0 ]
+"56
+[v _IOCBF1_InterruptHandler IOCBF1_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEus  1 e 2 0 ]
+"149 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"211
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 14 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 0 ]
+"13
+} 0
+"1368 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S1769 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S1769  1 a 1 wreg ]
+"1371
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 76 ]
+"1368
+[v vfprintf@fp fp `*.1S1769  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 70 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 72 ]
+"1373
+"1368
+[v vfprintf@fp fp `*.1S1769  1 a 1 75 ]
+"1382
+} 0
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+[s S1769 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S1769  1 a 1 wreg ]
+"675
+[v vfpfcnvrt@llu llu `uo  1 a 8 61 ]
+"674
+[v vfpfcnvrt@ll ll `o  1 a 8 53 ]
+"670
+[v vfpfcnvrt@fp fp `*.1S1769  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 46 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 47 ]
+"680
+"670
+[v vfpfcnvrt@fp fp `*.1S1769  1 a 1 69 ]
+"1365
+} 0
+"593
+[v _utoa utoa `(i  1 s 2 utoa ]
+{
+[s S1769 _IO_FILE 0 ]
+[v utoa@fp fp `*.1S1769  1 a 1 wreg ]
+"596
+[v utoa@n n `uo  1 a 8 30 ]
+"595
+[v utoa@i i `i  1 a 2 38 ]
+[v utoa@w w `i  1 a 2 28 ]
+[v utoa@p p `i  1 a 2 25 ]
+"593
+[v utoa@fp fp `*.1S1769  1 a 1 wreg ]
+[v utoa@d d `uo  1 p 8 16 ]
+"599
+"593
+[v utoa@fp fp `*.1S1769  1 a 1 27 ]
+"619
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+{
+"12
+[v ___lomod@counter counter `uc  1 a 1 1 ]
+"7
+[v ___lomod@divisor divisor `uo  1 p 8 0 ]
+[v ___lomod@dividend dividend `uo  1 p 8 8 ]
+"27
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+{
+"12
+[v ___lodiv@quotient quotient `uo  1 a 8 1 ]
+"13
+[v ___lodiv@counter counter `uc  1 a 1 9 ]
+"7
+[v ___lodiv@divisor divisor `uo  1 p 8 0 ]
+[v ___lodiv@dividend dividend `uo  1 p 8 8 ]
+"32
+} 0
+"274 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+[s S1769 _IO_FILE 0 ]
+[v dtoa@fp fp `*.1S1769  1 a 1 wreg ]
+"277
+[v dtoa@n n `o  1 a 8 36 ]
+"276
+[v dtoa@i i `i  1 a 2 44 ]
+[v dtoa@s s `i  1 a 2 34 ]
+[v dtoa@w w `i  1 a 2 32 ]
+[v dtoa@p p `i  1 a 2 29 ]
+"274
+[v dtoa@fp fp `*.1S1769  1 a 1 wreg ]
+[v dtoa@d d `o  1 p 8 16 ]
+"280
+"274
+[v dtoa@fp fp `*.1S1769  1 a 1 31 ]
+"315
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+[s S1769 _IO_FILE 0 ]
+[v pad@fp fp `*.1S1769  1 a 1 wreg ]
+"74
+[v pad@w w `i  1 a 2 10 ]
+[v pad@i i `i  1 a 2 8 ]
+"72
+[v pad@fp fp `*.1S1769  1 a 1 wreg ]
+[v pad@buf buf `*.5uc  1 p 1 4 ]
+[v pad@p p `i  1 p 2 5 ]
+"77
+"72
+[v pad@fp fp `*.1S1769  1 a 1 12 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.5DCuc  1 a 1 wreg ]
+"7
+[v strlen@a a `*.5DCuc  1 a 1 3 ]
+"5
+[v strlen@s s `*.5DCuc  1 a 1 wreg ]
+"7
+[v strlen@s s `*.5DCuc  1 a 1 4 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 1 ]
+"10
+[v fputs@c c `uc  1 a 1 0 ]
+"8
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+[s S1752 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputs@fp fp `*.1S1752  1 p 1 10 ]
+"13
+[v fputs@s s `*.5DCuc  1 a 1 3 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[s S1752 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputc@fp fp `*.1S1752  1 p 1 4 ]
+"21
+} 0
+"146 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/eusart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 1 ]
+"149
+} 0
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 3 ]
+"4
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 2 ]
+[v ___aomod@counter counter `uc  1 a 1 1 ]
+"7
+[v ___aomod@divisor divisor `o  1 p 8 0 ]
+[v ___aomod@dividend dividend `o  1 p 8 8 ]
+"36
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 3 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 2 ]
+[v ___aodiv@counter counter `uc  1 a 1 1 ]
+"7
+[v ___aodiv@divisor divisor `o  1 p 8 0 ]
+[v ___aodiv@dividend dividend `o  1 p 8 8 ]
+"43
+} 0
+"126 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\main.c
+[v _pid_compute pid_compute `(l  1 e 4 0 ]
+{
+[v pid_compute@ap ap `s  1 p 2 18 ]
+[v pid_compute@spp spp `s  1 p 2 20 ]
+[v pid_compute@tm tm `uc  1 p 1 22 ]
+"144
+} 0
+"108
+[v _switch_out switch_out `(v  1 e 1 0 ]
+{
+[v switch_out@In In `f  1 p 4 68 ]
+"124
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 1 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 0 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 4 ]
+"70
+} 0
+"242 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 60 ]
+[v ___flsub@b b `d  1 p 4 64 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 59 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 58 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 57 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 56 ]
+"10
+[v ___fladd@b b `d  1 p 4 40 ]
+[v ___fladd@a a `d  1 p 4 44 ]
+"237
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"82 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm4.c
+[v _PWM4_LoadDutyValue PWM4_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM4_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"98
+} 0
+"82 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm3.c
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM3_LoadDutyValue@dutyValue dutyValue `us  1 p 2 2 ]
+"98
+} 0
+"82 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm2.c
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM2_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"98
+} 0
+"82 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm1.c
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM1_LoadDutyValue@dutyValue dutyValue `us  1 p 2 2 ]
+"98
+} 0
+"101 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\main.c
+[v _gettime gettime `(f  1 e 4 0 ]
+{
+"106
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1601 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1606 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1609 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1601 1 fAsBytes 4 0 `S1606 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1609  1 a 4 34 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 28 ]
+[s S1678 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1681 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S1678 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1681  1 a 2 38 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 33 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 32 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 27 ]
+"8
+[v ___flmul@b b `d  1 p 4 14 ]
+[v ___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"100 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/tmr0.c
+[v _TMR0_ReadTimer TMR0_ReadTimer `(us  1 e 2 0 ]
+{
+"102
+[v TMR0_ReadTimer@readVal readVal `us  1 a 2 7 ]
+"104
+[v TMR0_ReadTimer@readValHigh readValHigh `uc  1 a 1 10 ]
+"103
+[v TMR0_ReadTimer@readValLow readValLow `uc  1 a 1 9 ]
+"111
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 12 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 5 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 10 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 17 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 16 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 9 ]
+"8
+[v ___fldiv@a a `d  1 p 4 68 ]
+[v ___fldiv@b b `d  1 p 4 72 ]
+"185
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"50 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"62 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"65 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm4.c
+[v _PWM4_Initialize PWM4_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"82 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"59 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"157
+} 0
+"226
+[v _IOCBF1_SetInterruptHandler IOCBF1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCBF1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"228
+} 0
+"191
+[v _IOCBF0_SetInterruptHandler IOCBF0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCBF0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"193
+} 0
+"64 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"66 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"172
+} 0
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"168
+} 0
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"176
+} 0
+"52 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"63
+} 0
+"159 C:\Users\Control 01\Documents\Personal Information\Workspaces\MPLAB Development\MPLABXProjects\PIC16\[Tests]\Tutorial-PIC16F18877\Tutorial_5_Robot.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"171
+} 0
+"211
+[v _IOCBF1_ISR IOCBF1_ISR `(v  1 e 1 0 ]
+{
+"221
+} 0
+"233
+[v _IOCBF1_DefaultInterruptHandler IOCBF1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"239
+} 0
+"176
+[v _IOCBF0_ISR IOCBF0_ISR `(v  1 e 1 0 ]
+{
+"186
+} 0
+"198
+[v _IOCBF0_DefaultInterruptHandler IOCBF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"206
+} 0
