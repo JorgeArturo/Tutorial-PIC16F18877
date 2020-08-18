@@ -29,3 +29,13 @@ El robot no va tan derecho como me lo imaginaba, porque el chasis del robot no e
 las ruedas locas. 
 Tambien observe que utilizando los motores de plastico de color amarillo tienen mucho que ver que los engranes internos sean de plastico, seria recomendable utilizar motores con
 engranes metalicos para mejorar tanto la velocidad y el control de ellos.
+
+## Tipos de chasis
+
+![Imagen de Robot](https://ae01.alicdn.com/kf/HTB1dzCoQXXXXXbsXpXXq6xXFXXX3/Elecrow-4WD-RC-Smart-Car-Chassis-with-S3003-Metal-Servo-Bearing-Kit-for-Arduino-Platform-DIY.jpg?v=4&s=100)
+
+Recomiendo estos tipos de chasis para el proposito de ir en linea recta porque son mas estables, mas si le agregamos el PID que hemos visto ira excelente.
+
+![Imagen de Robot](http://www.madnesselectronics.com/wp-content/uploads/2016/01/4wdsimple_1.jpg?v=4&s=100)
+
+Este tipo de chasis esta muy bueno, pero yo lo veo complicado realizar la programacion de los encoders y para manejar los 4 motores, creo que seria una buena opcion si no se aplica algun PID.
